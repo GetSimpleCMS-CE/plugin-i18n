@@ -257,8 +257,7 @@
 			</table>
       <input type="submit" name="save" value="<?php i18n('i18n_navigation/SAVE_NAVIGATION'); ?>" class="submit"/>
     </form>
-    <script type="text/javascript" src="../plugins/i18n_navigation/js/jquery-ui.sort.min.js"></script>
-    <script type="text/javascript">
+     <script type="text/javascript">
       var lang = '';
       function getLevel($tr) {
         var level = parseInt($tr.find('[name$=level]').val());
